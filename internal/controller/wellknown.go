@@ -10,6 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// AppleWellKnownHandler handles requests to the /.well-known/apple-app-site-association endpoint.
 func AppleWellKnownHandler(ctx *gin.Context) {
 	fmt.Println("call /.well-known/apple-app-site-association")
 
